@@ -1,0 +1,14 @@
+#!/bin/python3
+
+import re, sys, os, site
+
+os.chdir(site.getsitepackages()[1])
+
+from gunicorn.app.wsgiapp import run
+
+if __name__ == '__main__':
+        sys.argv.extend(['-b', '0.0.0.0:9090', 'puppetboard.app:app'])
+        print(sys.argv)
+        sys.exit(run())
+
+

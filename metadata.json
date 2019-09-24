@@ -1,0 +1,51 @@
+{
+  "name": "kalki5-puppetboard",
+  "version": "0.1.0",
+  "author": "Kalki Nethaji",
+  "summary": "Puppet module to setup puppetboard",
+  "license": "Apache-2.0",
+  "source": "https://github.com/skaasguru/puppet-puppetboard",
+  "project_page": "https://github.com/skaasguru/puppet-puppetboard",
+  "issues_url": "https://github.com/skaasguru/puppet-puppetboard/issues",
+  "dependencies": [
+    {
+      "name": "puppet/selinux",
+      "version_requirement": "3.x"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "pdk-version": "1.13.0",
+  "template-url": "pdk-default#1.13.0",
+  "template-ref": "1.13.0-0-g66e1443"
+}
